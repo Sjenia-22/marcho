@@ -19,6 +19,7 @@
         padding-left: 35px;
     }
     &__list-link {
+        // border-bottom: 1px solid;
         color: $title;
         padding-bottom: 1px;
         transition: all .3s;
@@ -31,7 +32,8 @@
     }
     &__list-link--active {
         color: $accent;
-        border-bottom: 1px solid &accent;
+        // border-bottom: 1px solid &accent;
+        border-bottom: 1px solid;
     }
 }
 
